@@ -3,4 +3,4 @@ from jax.numpy import sum
 
 
 def apply(exponential, points):
-    return sum(fft(points) * exponential, axis=1) / points.size
+    return sum(fft(points) * exponential, axis=1)
