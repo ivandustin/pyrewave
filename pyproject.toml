@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pyrewave"
+version = "0.1.0"
+description = ""
+authors = ["Ivan Dustin Bilon <ivan22.dust@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+jax = "^0.4.21"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
