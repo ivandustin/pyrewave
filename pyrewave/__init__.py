@@ -1,3 +1,3 @@
-from .apply import apply
+from .resample import resample
 
-__all__ = ["apply"]
+__all__ = ["resample"]
